@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTAWESOME CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- SWIPERJS CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div id="menuBtn" class="fas fa-bars"></div>
+
+      <a href="#" class="logo">Coffee <i class="fas fa-mug-hot"></i></a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#book">Book</a>
+      </nav>
+
+      <a href="#" class="btn">Book A Table</a>
+    </header>
+
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>Fresh Coffee In The Morning</h3>
+          <a href="#" class="btn">Buy One Now</a>
+        </div>
+
+        <div class="image">
+          <img src="image/home-img-1.png" alt="home-img" class="homeImage" />
+        </div>
+      </div>
+
+      <div class="imgSlider">
+        <img src="image/home-img-1.png" alt="" />
+        <img src="image/home-img-2.png" alt="" />
+        <img src="image/home-img-3.png" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading">About Us <span>Why Choose Us</span></h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="image/about-img.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">What's make our coffee speacial!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad beatae
+            enim magnam facere quas eum sapiente id deserunt facilis! Quibusdam
+            amet nostrum, doloremque suscipit maxime provident vitae beatae.
+            Provident totam labore beatae debitis quas molestias.
+          </p>
+          <a href="#" class="btn">Read More</a>
+
+          <div class="iconsContainer">
+            <div class="icon">
+              <img src="image/about-icon-1.png" alt="" />
+              <h3>Quality Coffee</h3>
+            </div>
+            <div class="icon">
+              <img src="image/about-icon-2.png" alt="" />
+              <h3>Our Branches</h3>
+            </div>
+            <div class="icon">
+              <img src="image/about-icon-3.png" alt="" />
+              <h3>Free Delivery</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">Our Menu <span>Popular Menu</span></h1>
+
+      <div class="boxContainer">
+        <a href="#" class="box">
+          <img src="image/menu-1.png" alt="menu" />
+          <div class="content">
+            <h3>Our Special Coffee</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              quia.
+            </p>
+            <span>$9.99</span>
+          </div>
+        </a>
+        <a href="#" class="box">
+          <img src="image/menu-2.png" alt="menu" />
+          <div class="content">
+            <h3>Our Special Coffee</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              quia.
+            </p>
+            <span>$9.99</span>
+          </div>
+        </a>
+        <a href="#" class="box">
+          <img src="image/menu-3.png" alt="menu" />
+          <div class="content">
+            <h3>Our Special Coffee</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              quia.
+            </p>
+            <span>$9.99</span>
+          </div>
+        </a>
+        <a href="#" class="box">
+          <img src="image/menu-4.png" alt="menu" />
+          <div class="content">
+            <h3>Our Special Coffee</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              quia.
+            </p>
+            <span>$9.99</span>
+          </div>
+        </a>
+        <a href="#" class="box">
+          <img src="image/menu-5.png" alt="menu" />
+          <div class="content">
+            <h3>Our Special Coffee</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              quia.
+            </p>
+            <span>$9.99</span>
+          </div>
+        </a>
+        <a href="#" class="box">
+          <img src="image/menu-6.png" alt="menu" />
+          <div class="content">
+            <h3>Our Special Coffee</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+              quia.
+            </p>
+            <span>$9.99</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">Reviews <span>What People Says</span></h1>
+
+      <div class="swiper reviewSlider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="fas fa-quote-left"></div>
+            <div class="fas fa-quote-right"></div>
+            <img src="image/pic-1.png" alt="pic" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              possimus ab, consequatur molestias doloribus provident.
+            </p>
+            <h3>John Doe</h3>
+            <span>Satisfied Client</span>
+          </div>
+          <div class="swiper-slide box">
+            <div class="fas fa-quote-left"></div>
+            <div class="fas fa-quote-right"></div>
+            <img src="image/pic-2.png" alt="pic" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              possimus ab, consequatur molestias doloribus provident.
+            </p>
+            <h3>John Doe</h3>
+            <span>Satisfied Client</span>
+          </div>
+          <div class="swiper-slide box">
+            <div class="fas fa-quote-left"></div>
+            <div class="fas fa-quote-right"></div>
+            <img src="image/pic-3.png" alt="pic" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              possimus ab, consequatur molestias doloribus provident.
+            </p>
+            <h3>John Doe</h3>
+            <span>Satisfied Client</span>
+          </div>
+          <div class="swiper-slide box">
+            <div class="fas fa-quote-left"></div>
+            <div class="fas fa-quote-right"></div>
+            <img src="image/pic-4.png" alt="pic" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              possimus ab, consequatur molestias doloribus provident.
+            </p>
+            <h3>John Doe</h3>
+            <span>Satisfied Client</span>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="book" id="book">
+      <h1 class="heading">Booking <span>Reserve a table</span></h1>
+
+      <form action="">
+        <input type="text" placeholder="Your Name" class="box" />
+        <input type="email" placeholder="Your Email" class="box" />
+        <input type="number" placeholder="Your Number" class="box" />
+        <textarea
+          class="box"
+          placeholder="Your Message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" class="btn" value="Send" />
+      </form>
+    </section>
+
+    <section class="footer">
+      <div class="boxContainer">
+        <div class="box">
+          <h3>Our Branches</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i> Turkey</a>
+          <a href="#"><i class="fas fa-arrow-right"></i> France</a>
+          <a href="#"><i class="fas fa-arrow-right"></i> USA</a>
+          <a href="#"><i class="fas fa-arrow-right"></i> Russia</a>
+          <a href="#"><i class="fas fa-arrow-right"></i> Japan</a>
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i> Home</a>
+          <a href="#about"><i class="fas fa-arrow-right"></i> About</a>
+          <a href="#menu"><i class="fas fa-arrow-right"></i> Menu</a>
+          <a href="#review"><i class="fas fa-arrow-right"></i> Review</a>
+          <a href="#book"><i class="fas fa-arrow-right"></i> Book</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#"><i class="fas fa-phone"></i> 0123 456 7890</a>
+          <a href="#"><i class="fas fa-envelope"></i> coffee@mail.com</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i> Mersin/Turkey</a>
+        </div>
+
+        <div class="box">
+          <h3>Social Links</h3>
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+        </div>
+      </div>
+
+      <div class="credit">
+        Created by <span>Furkan Sünger</span>. Designed by Mr. Web Designer |
+        All Rights Reserved
+      </div>
+    </section>
+
+    <!-- SWIPERJS -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
